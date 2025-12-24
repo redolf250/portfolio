@@ -1,0 +1,197 @@
+{
+  "name": "Asamaning Redolf",
+  "title": "Software Engineer",
+  "location": "Kumasi, Ghana",
+  "profileImage": "/images/profile.jpg",
+
+  "emails": [
+    { "type": "work", "address": "redolfkendrick@gmail.com" },
+    { "type": "personal", "address": "redolfasamaning@outlook.com" }
+  ],
+
+  "phones": [
+    { "type": "mobile", "number": "+233552588647" }
+  ],
+
+  "socials": [
+    { "platform": "LinkedIn", "url": "https://linkedin.com/in/redolf120" },
+    { "platform": "GitHub", "url": "https://github.com/redolf250" }
+  ],
+
+  "summary": "I design and build backend systems for enterprise platforms and data-intensive business applications. For now my work focuses on management information systems, ERP-style platforms, and backend services where data integrity, performance, and long-term maintainability are critical. I’m particularly interested in software architecture, distributed systems, and event-driven platforms, and I enjoy continuously exploring how different technologies are applied in real-world systems.",
+  "about": "I’m a backend engineer focused on enterprise and data-intensive business systems. Most of my work involves designing and maintaining management information systems, ERP-style platforms, and backend services where data integrity, performance, and long-term maintainability really matter. Outside of day-to-day development, I spend a lot of time studying software systems and architecture. I enjoy exploring technologies through their real-world use cases, especially in the context of distributed systems, event-driven architectures, and data-intensive platforms. I read extensively on software engineering and systems design. Some of my favorite books include Designing Data-Intensive Applications by Martin Kleppmann, Apache Kafka in Action, Designing Event-Driven Systems by Ben Stopford, and Designing Distributed Systems. I also enjoy watching conference talks from communities like NDC and Devoxx, where practitioners share lessons learned from production systems. I have experience with machine learning techniques and NLP tools, and I enjoy exploring adjacent domains when they meaningfully intersect with backend and platform engineering.",
+  "education": [
+    {
+      "degree": "BSc Computer Science",
+      "institution": "KNUST, Ghana",
+      "period": "09/2019 – 08/2023",
+      "honors": "Second Class Honors",
+      "thesis": "Design and Implementation of Attendance Tracking Software for University Campus Study Facilities Using QR-Code Technology"
+    }
+  ],
+
+  "research": [
+    {
+      "title": "Undergraduate Thesis",
+      "topic": "Attendance Tracking Software Using QR-Code Technology",
+      "details": [
+        "Developed a QR-code–based attendance tracking system for university study facilities.",
+        "Provided real-time monitoring, automated tracking, and customized reporting.",
+        "Improved accuracy, reduced staff workload, and promoted student accountability."
+      ]
+    },
+    {
+      "title": "Collaboration Thesis",
+      "topic": "Integration of AI and Computer Vision in Shopping Malls",
+      "details": [
+        "Developed a smart shopping trolley using YOLOv8 for product recognition.",
+        "Enabled real-time detection, billing, and checkout on Raspberry Pi 4.",
+        "Improved customer convenience and retail efficiency."
+      ]
+    },
+    {
+      "title": "Other Research",
+      "topic": "Micro-Controller and Machine Learning",
+      "details": [
+        "Explored capabilities of micro-controller chips and their market use cases.",
+        "Optimized face detection with ANN + nearest neighbor search for faster processing."
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Softdeets Ltd, Kumasi, Ghana",
+      "period": "November,2023 – Present",
+      "details": [
+        "Integrated web crawlers into large-scale systems to enhance data acquisition.",
+        "Contributed to projects (GLMIS, LIPW, and LEAP) by developing modules for notifications and document management.",
+        "Collaborated in Agile teams, applying Git version control and Azure DevOps pipelines to manage workflows.",
+        "Applied profiling techniques to improve runtime efficiency and optimize database queries.",
+        "Conducted manual testing and validation to ensure functional reliability of enterprise applications",
+        "Demonstrated passion for learning emerging technologies while leading and independently executing a major refactor of the existing codebase, taking full ownership of design decisions, implementation, and stabilization.",
+        "Improved code maintainability and scalability by reducing technical debt, simplifying complex logic, and enforcing consistent architectural patterns. "
+      ]
+    },
+    {
+      "role": "Software Developer",
+      "company": "Akoma Homecare, Toledo, United States",
+      "period": "September,2024 – Present",
+      "details": [
+        "Enhanced institutional website with new features.",
+        "Performed server monitoring and preventive maintenance.",
+        "Optimized database performance and security.",
+        "Used Jira for Agile project management."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Enterprise System",
+      "description": "Enterprise system with modules for sales, procurement, inventory, logistics, finance, and reporting.",
+      "tech": ["TypeScript", "JavaScript", "BullMQ","Jira", "SonarQube", "Loki", "Prometheus", "Grafana"],
+      "link": "https://tradesphere.akomahmc.org"
+    },
+    {
+      "name": "Git Commit Buddy",
+      "description": "This is a developer tool that solves the problem of vague or unhelpful commit messages. In many teams, developers often commit multiple file changes with messages like “updated”, making it hard to track what was actually changed. This tool leverages Large Language Models (LLMs) to automatically generate meaningful commit messages and pull request content based on real code changes. By doing so, it bridges the gap between developers and proper version control practices, making commit histories clearer, reviews easier, and collaboration smoother.",
+      "tech": ["Python", "Jira", "Ollama","Lang Chain", "Gemini", "PyQt5", "Inno Setup Builder"],
+      "link": "https://github.com/redolf250/git-commit-buddy"
+    },
+    {
+      "name": "High-Powered Device Control System",
+      "description": "This project demonstrates the design and implementation of a microcontroller-based system for controlling high-powered electronic devices. It is built around the PIC16F877A and integrates both hardware and software components. Applications of this project span across home automation, industrial switching systems, and educational demonstrations in microcontroller-based device control. By combining circuit design, simulation, and programming, the project serves as a practical demonstration of embedded systems engineering.",
+      "tech": ["Proteus", "Embedded C", "Assembly Language", "MPX Lab IDE"],
+      "link": "https://github.com/redolf250/mini-project"
+    },
+    {
+      "name": "Experimenting the Integration of AI and Computer Vision in shopping malls By Fine-Tuning Yolov8 on Custom Data",
+      "description": "In this project, we developed a computer vision–based smart shopping trolley to enhance efficiency and customer experience in retail. The system employs the YOLOv8 object detection model, fine-tuned on a custom dataset, to identify products without barcodes or RFID tags. Built on a Raspberry Pi 4 with camera, sensors, and touchscreen, the trolley enables real-time product detection, billing, and checkout. It improves convenience, reduces wait times, lowers operational costs, and supports customer engagement. Despite dataset and hardware limitations, the prototype shows strong potential for deployment in modern retail and provides data-driven insights for future autonomous solutions.",
+      "tech": ["Python", "Tensorflow", "Keras", "Numpy", "PyQt5", "Pytorch"],
+      "link": "https://github.com/redolf250/mini-project"
+    },
+    {
+      "name": "Design and Implementation of Attendance Tracking Software for University Campus Study Facilities Using QR-Code Technology.",
+      "description": "Developed a QR-code–based attendance tracking system for university study facilities to replace inefficient manual methods. The system provides a reliable and user-friendly platform with real-time monitoring, automated tracking, customized reporting, system integration, and enhanced security. It improves accuracy, reduces staff workload, and promotes student accountability while generating valuable insights into facility usage for better resource management.",
+      "tech": ["Python","Pandas", "Matplotlib", "OpenCV", "Numpy", "PyQt5"],
+      "link": "https://github.com/redolf250/iAttend/tree/master"
+    }
+  ],
+
+ "skills": [
+  { "name": "Java", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+  { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+  { "name": "C#", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" },
+  { "name": "TypeScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+  { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+
+  { "name": "Spring Boot", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
+  { "name": "Express.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
+  { "name": "Ktor", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" },
+  { "name": "Quarkus", "icon": "https://design.jboss.org/quarkus/logo/final/PNG/quarkus_icon_rgb_128px_default.png" },
+  { "name": "ASP.NET", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" },
+
+  { "name": "Docker", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+  { "name": "Kubernetes", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
+  { "name": "Jenkins", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" },
+
+  { "name": "Apache Kafka", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" },
+  { "name": "RabbitMQ", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/rabbitmq/rabbitmq-original.svg" },
+
+  { "name": "MySQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+  { "name": "PostgreSQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+  { "name": "Cassandra", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cassandra/cassandra-original.svg" },
+  { "name": "MongoDB", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+  { "name": "SQL Server", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" },
+  { "name": "Redis", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" },
+
+  { "name": "Maven", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" },
+  { "name": "Gradle", "icon": "https://github.com/devicons/devicon/blob/v2.17.0/icons/gradle/gradle-original.svg" },
+  { "name": "Nexus", "icon": "https://cdn.iconscout.com/icon/free/png-256/sonatype-nexus-3521568-2945020.png" },
+
+  { "name": "Git", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+  { "name": "Bitbucket", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg" },
+
+  { "name": "React Native", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+  { "name": "JavaFX", "icon": "https://raw.githubusercontent.com/mkostiv/javafx-icons/main/icons/java.png" },
+  { "name": "EJS", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" },
+  { "name": "Handlebars", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg" },
+  { "name": "CSS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+  { "name": "HTML", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+
+  { "name": "JUnit", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" },
+  { "name": "Mockito", "icon": "https://avatars.githubusercontent.com/u/3346760?s=200&v=4" },
+  { "name": "TestContainers", "icon": "https://avatars.githubusercontent.com/u/22274221?s=200&v=4" },
+
+  { "name": "Jira", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
+  { "name": "Agile/Scrum", "icon": "https://cdn-icons-png.flaticon.com/512/4341/4341069.png" }
+],
+
+  "awards": [
+    "Best Programmer of the Year (2022/2023) – FIESTA Y PREMIOS Awards Night"
+  ],
+
+  "leadership": [
+    {
+      "role": "Assistant Health Prefect",
+      "org": "Wesley Grammar Senior High School, Accra, Ghana",
+      "period": "2017 – 2018",
+      "details": [
+        "Promoted student health awareness through weekly health talks.",
+        "Administered first aid for minor injuries and health concerns."
+      ]
+    },
+    {
+      "role": "Data Management Head",
+      "org": "College of Science, KNUST, Ghana",
+      "period": "2022 – 2023",
+      "details": [
+        "Designed Google Forms for data collection.",
+        "Managed and cleaned data for analysis.",
+        "Built Power BI dashboards for decision-making."
+      ]
+    }
+  ]
+}

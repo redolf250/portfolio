@@ -1,0 +1,50 @@
+<h2 class="mb-4">Contact</h2>
+
+<div class="row">
+  <!-- Emails -->
+  <div class="col-md-4 mb-4">
+    <h5><i class="bi bi-envelope-fill text-primary me-2"></i> Emails</h5>
+    <ul class="list-unstyled">
+      <% cv.emails.forEach(e => { %>
+        <li class="mb-2">
+          <i class="bi bi-envelope-at me-2 text-secondary"></i>
+          <strong><%= e.type %>:</strong>
+          <a href="mailto:<%= e.address %>"><%= e.address %></a>
+        </li>
+      <% }) %>
+    </ul>
+  </div>
+
+  <!-- Phones -->
+  <div class="col-md-4 mb-4">
+    <h5><i class="bi bi-telephone-fill text-success me-2"></i> Phones</h5>
+    <ul class="list-unstyled">
+      <% cv.phones.forEach(p => { %>
+        <li class="mb-2">
+          <i class="bi bi-telephone me-2 text-secondary"></i>
+          <strong><%= p.type %>:</strong>
+          <a href="tel:<%= p.number %>"><%= p.number %></a>
+        </li>
+      <% }) %>
+    </ul>
+  </div>
+
+  <!-- Socials -->
+  <div class="col-md-4 mb-4">
+    <h5><i class="bi bi-share-fill text-info me-2"></i> Social Links</h5>
+    <ul class="list-unstyled">
+      <% cv.socials.forEach(s => { %>
+        <li class="mb-2 d-flex align-items-center">
+          <% if (s.platform.toLowerCase().includes("github")) { %>
+            <i class="bi bi-github me-2"></i>
+          <% } else if (s.platform.toLowerCase().includes("linkedin")) { %>
+            <i class="bi bi-linkedin text-primary me-2"></i>
+          <% } else { %>
+            <i class="bi bi-globe me-2"></i>
+          <% } %>
+          <a href="<%= s.url %>" target="_blank"><%= s.platform %></a>
+        </li>
+      <% }) %>
+    </ul>
+  </div>
+</div>

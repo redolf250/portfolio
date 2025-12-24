@@ -1,0 +1,37 @@
+<h2>Work Experience</h2>
+<% cv.experience.forEach(exp => { %>
+  <div class="mb-4">
+    <h5><%= exp.role %> @ <%= exp.company %></h5>
+    <small><%= exp.period %></small>
+    <ul>
+      <% exp.details.forEach(d => { %><li><%= d %></li><% }) %>
+    </ul>
+  </div>
+<% }) %>
+
+<h2>Technical Skills</h2>
+<div class="row">
+  <% cv.skills.forEach(skill => { %>
+    <div class="col-md-3 mb-3 d-flex align-items-center">
+      <img src="<%= skill.icon %>" alt="<%= skill.name %> logo" class="me-2" style="width:28px; height:28px;">
+      <span><%= skill.name %></span>
+    </div>
+  <% }) %>
+</div>
+
+
+<h2>Awards</h2>
+<ul>
+  <% cv.awards.forEach(a => { %><li><%= a %></li><% }) %>
+</ul>
+
+<h2>Leadership & Volunteering</h2>
+<% cv.leadership.forEach(l => { %>
+  <div class="mb-3">
+    <h5><%= l.role %> - <%= l.org %></h5>
+    <small><%= l.period %></small>
+    <ul>
+      <% l.details.forEach(d => { %><li><%= d %></li><% }) %>
+    </ul>
+  </div>
+<% }) %>

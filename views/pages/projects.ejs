@@ -1,0 +1,17 @@
+<h2>Projects</h2>
+<div class="row">
+  <% cv.projects.forEach(p => { %>
+    <div class="col-md-6 mb-3">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title"><%= p.name %></h5>
+          <p class="card-text"><%= p.description %></p>
+          <p><strong>Tech:</strong> <%= p.tech.join(", ") %></p>
+          <% if (p.link) { %>
+            <a href="<%= p.link %>" class="btn btn-sm btn-primary" target="_blank">View Project</a>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  <% }) %>
+</div>

@@ -1,0 +1,23 @@
+<h2>About Me</h2>
+<p><%= cv.about %></p>
+
+<h3>Education</h3>
+<ul class="list-group mb-4">
+  <% cv.education.forEach(e => { %>
+    <li class="list-group-item">
+      <strong><%= e.degree %></strong> - <%= e.institution %> (<%= e.period %>)<br>
+      <em><%= e.honors %></em><br>
+      Thesis: <%= e.thesis %>
+    </li>
+  <% }) %>
+</ul>
+
+<h3>Research Experience</h3>
+<% cv.research.forEach(r => { %>
+  <div class="mb-3">
+    <h5><%= r.title %>: <%= r.topic %></h5>
+    <ul>
+      <% r.details.forEach(d => { %><li><%= d %></li><% }) %>
+    </ul>
+  </div>
+<% }) %>

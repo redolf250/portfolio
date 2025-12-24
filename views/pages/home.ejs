@@ -1,0 +1,27 @@
+<div class="container my-5">
+  <div class="row align-items-center">
+    
+    <!-- Left column: summary with background -->
+    <div class="col-md-7">
+      <section class="py-5 px-4 bg-light rounded-3 shadow-sm h-100 d-flex flex-column justify-content-center">
+        <h1 class="display-4 fw-bold mb-3"><%= cv.name %></h1>
+        <p class="lead text-primary mb-3"><%= cv.title %></p>
+        <p class="text-muted mb-4"><%= cv.summary %></p>
+
+        <div>
+          <a href="/resume" class="btn btn-primary btn-lg me-2">View Resume</a>
+          <a href="/projects" class="btn btn-outline-dark btn-lg">View Projects</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- Right column: image -->
+    <div class="col-md-5 text-center mt-4 mt-md-0">
+      <img src="<%= cv.profileImage %>" 
+           alt="<%= cv.name %>" 
+           class="shadow-lg rounded img-fluid"
+           style="max-height: 900px; object-fit: cover;">
+    </div>
+
+  </div>
+</div>
